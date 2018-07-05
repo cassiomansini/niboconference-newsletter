@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <meta charset="utf-8"> <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width"> <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Use the latest (edge) version of IE rendering engine -->
+    <meta name="x-apple-disable-message-reformatting">  <!-- Disable auto-scale in iOS 10 Mail entirely -->
+    <title>Nibo Conference 2018 - Aprenda com os Vision&aacute;rios</title> <!-- The title tag shows in email notifications, like Android 4.4. -->
+
+    <!-- CSS Reset : BEGIN -->
+    <style>
+
+        /* What it does: Remove spaces around the email design added by some email clients. */
+        /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+        html,
+        body {
+            margin: 0 auto !important;
+            padding: 0 !important;
+            height: 100% !important;
+            width: 100% !important;
+        }
+
+        /* What it does: Stops email clients resizing small text. */
+        * {
+            -ms-text-size-adjust: 100%;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        /* What it does: Centers email on Android 4.4 */
+        div[style*="margin: 16px 0"] {
+            margin: 0 !important;
+        }
+
+        /* What it does: Stops Outlook from adding extra spacing to tables. */
+        table,
+        td {
+            mso-table-lspace: 0pt !important;
+            mso-table-rspace: 0pt !important;
+        }
+
+        /* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+        table {
+            border-spacing: 0 !important;
+            border-collapse: collapse !important;
+            table-layout: fixed !important;
+            margin: 0 auto !important;
+        }
+        table table table {
+            table-layout: auto;
+        }
+
+        /* What it does: Uses a better rendering method when resizing images in IE. */
+        img {
+            -ms-interpolation-mode:bicubic;
+        }
+
+        /* What it does: Prevents Windows 10 Mail from underlining links despite inline CSS. Styles for underlined links should be inline. */
+        a {
+            text-decoration: none;
+        }
+
+        /* What it does: A work-around for email clients meddling in triggered links. */
+        *[x-apple-data-detectors],  /* iOS */
+        .unstyle-auto-detected-links *,
+        .aBn {
+            border-bottom: 0 !important;
+            cursor: default !important;
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        /* What it does: Prevents Gmail from displaying a download button on large, non-linked images. */
+        .a6S {
+            display: none !important;
+            opacity: 0.01 !important;
+        }
+        /* If the above doesn't work, add a .g-img class to any image in question. */
+        img.g-img + div {
+            display: none !important;
+        }
+
+        /* What it does: Removes right gutter in Gmail iOS app: https://github.com/TedGoas/Cerberus/issues/89  */
+        /* Create one of these media queries for each additional viewport size you'd like to fix */
+
+        /* iPhone 4, 4S, 5, 5S, 5C, and 5SE */
+        @media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+            .email-container {
+                min-width: 320px !important;
+            }
+        }
+        /* iPhone 6, 6S, 7, 8, and X */
+        @media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+            .email-container {
+                min-width: 375px !important;
+            }
+        }
+        /* iPhone 6+, 7+, and 8+ */
+        @media only screen and (min-device-width: 414px) {
+            .email-container {
+                min-width: 414px !important;
+            }
+        }
+
+    </style>
+    <!-- CSS Reset : END -->
+	<!-- Reset list spacing because Outlook ignores much of our inline CSS. -->
+	<!--[if mso]>
+	<style type="text/css">
+		ul,
+		ol {
+			margin: 0 !important;
+		}
+		li {
+			margin-left: 30px !important;
+		}
+		li.list-item-first {
+			margin-top: 0 !important;
+		}
+		li.list-item-last {
+			margin-bottom: 10px !important;
+		}
+	</style>
+	<![endif]-->
+
+    <!-- Progressive Enhancements : BEGIN -->
+    <style>
+
+	    /* Media Queries */
+	    @media screen and (max-width: 480px) {
+
+	        /* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
+	        .fluid {
+	            width: 100% !important;
+	            max-width: 100% !important;
+	            height: auto !important;
+	            margin-left: auto !important;
+	            margin-right: auto !important;
+	        }
+
+	        /* What it does: Forces table cells into full-width rows. */
+	        .stack-column,
+	        .stack-column-center {
+	            display: block !important;
+	            width: 100% !important;
+	            max-width: 100% !important;
+	            direction: ltr !important;
+	        }
+	        /* And center justify these ones. */
+	        .stack-column-center {
+	            text-align: center !important;
+	        }
+
+	        /* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
+	        .center-on-narrow {
+	            text-align: center !important;
+	            display: block !important;
+	            margin-left: auto !important;
+	            margin-right: auto !important;
+	            float: none !important;
+	        }
+	        table.center-on-narrow {
+	            display: inline-block !important;
+	        }
+
+	        /* What it does: Adjust typography on small screens to improve readability */
+	        .email-container p {
+	            font-size: 1.4em !important;
+	        }
+	    }
+
+    </style>
+    <!-- Progressive Enhancements : END -->
+
+    <!-- What it does: Makes background images in 72ppi Outlook render at correct size. -->
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:AllowPNG/>
+            <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+    </xml>
+    <![endif]-->
+
+</head>
+<!--
+	The email background color (#ffffff) is defined in three places:
+	1. body tag: for most email clients
+	2. center tag: for Gmail and Inbox mobile apps and web versions of Gmail, GSuite, Inbox, Yahoo, AOL, Libero, Comcast, freenet, Mail.ru, Orange.fr
+	3. mso conditional: For Windows 10 Mail
+-->
+<body width="100%" style="margin: 0; padding: 0 !important; mso-line-height-rule: exactly; background-color: #ffffff;">    <center style="width: 100%; background-color: #ffffff;">
+    <!--[if mso | IE]>
+    <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #ffffff;">
+    <tr>
+    <td>
+    <![endif]-->
+
+        <!-- Visually Hidden Preheader Text : BEGIN -->
+        <div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
+            Aprenda com os empres&aacute;rios que foram vision&aacute;rios e estão tendo resultados surpreendentes com a contabilidade consultiva. Compareça ao Nibo Conference e descubra todos os segredos para o seu sucesso!
+        </div>
+        <!-- Visually Hidden Preheader Text : END -->
+
+        <!-- Create white space after the desired preview text so email clients don’t pull other distracting text into the inbox preview. Extend as necessary. -->
+        <!-- Preview Text Spacing Hack : BEGIN -->
+        <div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
+	        &zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+        </div>
+        <!-- Preview Text Spacing Hack : END -->
+
+        <!--
+            Set the email width. Defined in two places:
+            1. max-width for all clients except Desktop Windows Outlook, allowing the email to squish on narrow but never go wider than 680px.
+            2. MSO tags for Desktop Windows Outlook enforce a 680px width.
+            Note: The Fluid and Responsive templates have a different width (600px). The hybrid grid is more "fragile", and I've found that 680px is a good width. Change with caution.
+        -->
+        <div style="max-width: 600px; margin: 0 auto;" class="email-container">
+            <!--[if mso]>
+            <table align="center" role="presentation" cellspacing="0" cellpadding="0" border="0" width="600">
+            <tr>
+            <td>
+            <![endif]-->
+
+	        <!-- Email Body : BEGIN -->
+	        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="margin: 0 auto;">
+		        <!-- Email Header : BEGIN -->
+	            <tr>
+	                <td style="padding: 0; text-align: center">
+	                    <img src="images/niboconference2018.jpg" width="200" height="48" alt="Nivo Conference 2018" border="0" style="height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555;">
+	                </td>
+	            </tr>
+		        <!-- Email Header : END -->
+
+	            <!-- Hero Image, Flush : BEGIN -->
+                <tr>
+                    <td style="background-color: #090856;" height="260" align="center">
+                        <img src="images/aprenda-com-os-visionarios.jpg" width="300" height="70" alt="Aprenda com os vision&aacute;rios." border="0" style="width: 90%; max-width: 300px; height: auto; background: #090856; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555; margin: auto;" class="g-img">
+                    </td>
+                </tr>
+                <!-- Hero Image, Flush : END -->
+
+                <!-- 1 Column Text + Button : BEGIN -->
+                <tr>
+                    <td style="background-color: #ffffff;">
+                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td align="center" style="padding: 0 20px;">
+                                    <p style="margin-top: 2em 0; font-family: 'Arial Black', Gadget, sans-serif; font-style:italic; color:#e81451; font-size: 1.6em; line-height: 2;">CONHEÇA OS NOVOS PALESTRANTES</p>
+                                    <p style="font-family: sans-serif, arial; font-size: 1em; line-height: 1.6;">Eles te mostrarão em primeira mão por que ser <b>empreendedor contábil</b> é a fórmula para manter sua empresa sempre à frente. Não fique de fora, compre seu ingresso!</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- 1 Column Text + Button : END -->
+
+                <!-- 2 Even Columns : BEGIN -->
+                <tr>
+                    <td height="100%" valign="top" width="100%" style="background-color: #ffffff;">
+                        <!--[if mso]>
+                        <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="580">
+                        <tr>
+                        <td valign="top" width="580">
+                        <![endif]-->
+                        <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:580px;">
+                            <tr>
+                                <td align="center" valign="top" style="font-size:0; padding: 10px 0;">
+                                    <!--[if mso]>
+                                    <table role="presentation" border="0" cellspacing="0" cellpadding="0" width="580">
+                                    <tr>
+                                    <td valign="top" width="265">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -2px; width:100%; min-width:200px; max-width:265px; vertical-align:top;" class="stack-column">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td style="padding: 10px 10px;">
+                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
+                                                        <tr>
+                                                            <td align="center" valign="top" width="50%" style="padding: 1.5em;">
+                                                                <img src="images/palestrante-alvaro-castro-jr.jpg" width="113" height="113" alt="Álvaro Castro Jr" style="max-width:113px;display:block;margin:0;border:0;">
+                                                                <p style="font-family: sans-serif, arial; font-size: 1em; margin-bottom: 5px;"><strong>Álvaro Castro Jr.</strong></p>
+                                                                <p style="font-family: sans-serif, arial; font-size: 1em; margin-top: 5px;">Diretor AEContábil</p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if mso]>
+                                    </td>
+                                    <td valign="top" width="265">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -2px; width:100%; min-width:200px; max-width:265px; vertical-align:top;" class="stack-column">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td style="padding: 10px 10px;">
+                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
+                                                        <tr>
+                                                            <td align="center" valign="top" width="50%" style="padding: 1.5em;">
+                                                                <img src="images/palestrante-rogerio-pereira.jpg" width="113" height="113" alt="Rogério Pereira" style="display:block;margin:0;border:0;">
+                                                                <p style="font-family: sans-serif, arial; font-size: 1em; margin-bottom: 5px;"><strong>Rogério Pereira</strong></p>
+                                                                <p style="font-family: sans-serif, arial; font-size: 1em; margin-top: 5px;">Sócio-fundador Fisconnect</p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if mso]>
+                                    </td>
+                                    <td valign="top" width="265">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -2px; width:100%; min-width:200px; max-width:265px; vertical-align:top;" class="stack-column">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td style="padding: 10px 10px;">
+                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
+                                                        <tr>
+                                                            <td align="center" valign="top" width="50%" style="padding: 1.5em;">
+                                                                <img src="images/palestrante-eliandro-prado.jpg" width="113" height="113" alt="Eliandro Prado" style="display:block;margin:0;border:0;">
+                                                                <p style="font-family: sans-serif, arial; font-size: 1em; margin-bottom: 5px;"><strong>Eliandro Prado.</strong></p>
+                                                                <p style="font-family: sans-serif, arial; font-size: 1em; margin-top: 5px;">CEO Omegaprice</p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if mso]>
+                                    </td>
+                                    <td valign="top" width="265">
+                                    <![endif]-->
+                                    <div style="display:inline-block; margin: 0 -2px; width:100%; min-width:200px; max-width:265px; vertical-align:top;" class="stack-column">
+                                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                                            <tr>
+                                                <td style="padding: 10px 10px;">
+                                                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" style="font-size: 14px;text-align: left;">
+                                                        <tr>
+                                                            <td align="center" valign="top" width="50%" style="padding: 1.5em;">
+                                                                <img src="images/palestrante-leandro-bueno.jpg" width="113" height="113" alt="Leandro Bueno" style="display:block;margin:0;border:0;">
+                                                                <p style="font-family: sans-serif, arial; font-size: 1em; margin-bottom: 5px;"><strong>Leandro Bueno</strong></p>
+                                                                <p style="font-family: sans-serif, arial; font-size: 1em; margin-top: 5px;">Diretor Comercial São Lucas</p>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <!--[if mso]>
+                                    </td>
+                                    </tr>
+                                    </table>
+                                    <![endif]-->
+                                </td>
+                            </tr>
+                        </table>
+                        <!--[if mso]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                    </td>
+                </tr>
+                <!-- 2 Even Columns : END -->
+
+	            <!-- Hero Image, Flush : BEGIN -->
+                <tr>
+                    <td style="background-color: #ffffff;">
+                        <img src="images/palestrantes.png" width="600" height="" alt="alt_text" border="0" style="width: 100%; max-width: 600px; height: auto; background: #dddddd; font-family: sans-serif; font-size: 15px; line-height: 15px; color: #555555; margin: auto;" class="fluid g-img">
+                    </td>
+                </tr>
+                <!-- Hero Image, Flush : END -->
+
+                <!-- 1 Column Text + Button : BEGIN -->
+                <tr>
+                    <td style="background-color: #ffffff;">
+                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td align="center" style="padding: 1.5em;">
+                                    <p style="font-family: sans-serif, arial; font-size: 1em; line-height: 1.6;">Aprenda com os empresários que são visionários e têm <b>resultados surpreendentes</b>.</p>
+                                    <p style="font-family: sans-serif, arial; font-size: 1em; line-height: 1.6;">Venha ao Nibo Conference e descubra todos os <b>segredos para o sucesso</b>!</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- 1 Column Text + Button : END -->
+
+
+
+                <!-- 1 Column Text + Button : BEGIN -->
+                <tr>
+                    <td style="background-color: #ffffff;">
+                        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                            <tr>
+                                <td align="center" style="padding: 0 1.5em;">
+                                    <p style="margin-top: 2em 0; font-family: 'Arial Black', Gadget, sans-serif; font-style:italic; color:#080856; font-size: 1.6em; line-height: 2;">VAI FICAR PARA TRÁS?</p>
+                                    <p style="font-family: sans-serif, arial; font-size: 1em; line-height: 1.6;">Saiba em 2018 o que será tendência em 2019! Garanta o seu ingresso e os da sua equipe com nossos <b><u>descontos especiais</u></b>.</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- 1 Column Text + Button : END -->
+                <tr>
+                    <td align="left" style="padding: 1.5em;">
+                        <p>[COLOCAR RODAPE AQUI]</p>
+                    </td>
+                </tr>
+            </table>
+            <!-- Email Body : END -->
+
+            <!--[if mso]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+        </div>
+
+
+    <!--[if mso | IE]>
+    </td>
+    </tr>
+    </table>
+    <![endif]-->
+    </center>
+</body>
+</html>
