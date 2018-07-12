@@ -83,6 +83,14 @@
             display: none !important;
         }
 
+        strong,
+        b,
+        u,
+        i,
+        em {
+            font-size: 1em !important;
+        }
+
         /* What it does: Removes right gutter in Gmail iOS app: https://github.com/TedGoas/Cerberus/issues/89  */
         /* Create one of these media queries for each additional viewport size you'd like to fix */
 
@@ -173,6 +181,14 @@
 	        /* What it does: Adjust typography on small screens to improve readability */
 	        .email-container p {
 	            font-size: 1.4em !important;
+	        }
+
+	        .email-container p.big {
+	            font-size: 2em !important;
+	        }
+
+	        .email-container p.small {
+	            font-size: 1em !important;
 	        }
 	    }
 
